@@ -1,0 +1,32 @@
+[ 
+{
+  "Name": "Synapse in a day - Fraud detection",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/fraud-detection/fraud-detection-00.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/fraud-detection/fraud-detection-01.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/fraud-detection/fraud-detection-02.md",
+      "Order": 3
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/fraud-detection/00-Lab%20pre-requisite.md",
+      "Order": 4
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/fraud-detection/01-Scoring-predictions.md",
+      "Order": 5
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/fraud-detection/02-Perform-A-Hoc-Queries.md",
+      "Order": 6
+    }
+  ]
+} 
+]
