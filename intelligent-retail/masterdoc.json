@@ -1,0 +1,32 @@
+[ 
+{
+  "Name": "Synapse in a day - Intelligent-retail",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/intelligent-retail/intelligent-retail-overview.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/intelligent-retail/intelligent-retail-00.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/intelligent-retail/intelligent-retail-01.md",
+      "Order": 3
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/intelligent-retail/intelligent-retail-02.md",
+      "Order": 4
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/intelligent-retail/intelligent-retail-03.md",
+      "Order": 5
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/dev/intelligent-retail/intelligent-retail-04.md",
+      "Order": 6
+    }
+  ]
+} 
+]
