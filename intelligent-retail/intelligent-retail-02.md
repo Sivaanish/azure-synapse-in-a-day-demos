@@ -584,48 +584,52 @@ The interactive authoring capability is used during authoring for functionalitie
 4. Expand **Move & transform** in the Activities list, then drag the **Data flow** activity onto the design canvas.
 
     ![The data flow activity is highlighted and an arrow points from it onto the design canvas.](media/pipeline-add-df-activity.png "Add data flow activity")
+    
+5. Select the **Data flow** activity, then set the Name to **JoinSensorFace**.
 
-5. In the `Adding data flow` form, select **Use existing data flow**, then select the **JoinSensorFace** data flow. Select **OK**.
+   ![The data flow activity is highlighted and an arrow points from it onto the design canvas.](media/pipeline-add-df-activity1.png "Add data flow activity")
+    
+6. Select the **Settings** tab, then set the Data Flow to **JoinSensorFace**.
 
-    ![The existing data flow is selected.](media/pipeline-add-df-form.png "Adding data flow")
+   ![The data flow activity is highlighted and an arrow points from it onto the design canvas.](media/pipeline-add-df-activity2.png "Add data flow activity")
 
-6. Expand **Synapse** in the Activities list, then drag the **Notebook** activity to the right of the data flow activity.
+7. Expand **Synapse** in the Activities list, then drag the **Notebook** activity to the right of the data flow activity.
 
     ![The notebook activity is highlighted and an arrow points from it onto the design canvas.](media/pipeline-add-notebook-activity.png "Add notebook activity")
 
-7. Select the Notebook activity, then set the Name to **ItemCount**.
+8. Select the Notebook activity, then set the Name to **ItemCount**.
 
     ![The notebook name is highlighted.](media/pipeline-notebook-name.png "Notebook name")
 
-8. Select the **Settings** tab, then set the Notebook to **item_count**.
+9. Select the **Settings** tab, then set the Notebook to **item_count**.
 
     ![The settings tab is highlighted.](media/pipeline-notebook-settings.png "Notebook settings")
 
-9. On the pipeline canvas, draw a green arrow from the `JoinSensorFace` activity to the `ItemCount` activity. This configures the notebook activity as a successor to the data flow activity.
+10. On the pipeline canvas, draw a green arrow from the `JoinSensorFace` activity to the `ItemCount` activity. This configures the notebook activity as a successor to the data flow activity.
 
     ![The green arrow is highlighted.](media/pipeline-df-to-notebook.png "Data flow to notebook")
 
-10. Expand **Move & transform** in the Activities list, then drag the **Copy data** activity to the right of the notebook activity.
+11. Expand **Move & transform** in the Activities list, then drag the **Copy data** activity to the right of the notebook activity.
 
     ![The copy data activity is highlighted and an arrow points from it onto the design canvas.](media/pipeline-add-copy-activity.png "Add copy data activity")
 
-11. Select the copy data activity, then set the Name to **CopyData**.
+12. Select the copy data activity, then set the Name to **CopyData**.
 
     ![The name field is highlighted.](media/pipeline-copy-name.png "Copy data name")
 
-12. Select the **Source** tab, then select **+ New** next to the source dataset.
+13. Select the **Source** tab, then select **+ New** next to the source dataset.
 
     ![The source tab is highlighted.](media/pipeline-copy-source-new.png "New source dataset")
 
-13. Select **Azure Data Lake Storage Gen2**, then select **Continue**.
+14. Select **Azure Data Lake Storage Gen2**, then select **Continue**.
 
     ![The ADLS Gen2 option is highlighted.](media/new-dataset-adls2.png "New integration dataset")
 
-14. Select **Parquet** on the format selection screen, then select **Continue**.
+15. Select **Parquet** on the format selection screen, then select **Continue**.
 
     ![The Parquet format is highlighted.](media/new-dataset-parquet-format.png "Select format")
 
-15. In the dataset properties form, complete the following:
+16. In the dataset properties form, complete the following:
 
     | Field                          | Value                                              |
     | ------------------------------ | ------------------------------------------         |
@@ -638,9 +642,9 @@ The interactive authoring capability is used during authoring for functionalitie
 
     > The `sampledata/out/item_count` files will be created by the `item_count` notebook.
 
-16. Select **OK**.
+17. Select **OK**.
 
-17. With the new `input_item_count` source dataset selected, configure the following settings in the **Source** tab:
+18. With the new `input_item_count` source dataset selected, configure the following settings in the **Source** tab:
 
     | Field                          | Value                                              |
     | ------------------------------ | ------------------------------------------         |
@@ -649,15 +653,15 @@ The interactive authoring capability is used during authoring for functionalitie
 
     ![The wildcard paths are displayed.](media/pipeline-copy-source-wildcard.png "Source settings")
 
-18. Select the **Sink** tab, then select **+ New** next to the sink dataset.
+19. Select the **Sink** tab, then select **+ New** next to the sink dataset.
 
     ![The sink tab is highlighted.](media/pipeline-copy-sink-new.png "New sink dataset")
 
-19. Select **Azure Synapse dedicated SQL pool**, then select **Continue**.
+20. Select **Azure Synapse dedicated SQL pool**, then select **Continue**.
 
     ![Azure Synapse dedicated SQL pool is highlighted.](media/new-dataset-sql-pool.png "New dataset")
 
-20. In the dataset properties form, complete the following:
+21. In the dataset properties form, complete the following:
 
     | Field                          | Value                                              |
     | ------------------------------ | ------------------------------------------         |
@@ -668,9 +672,9 @@ The interactive authoring capability is used during authoring for functionalitie
 
     ![The dataset properties are configured.](media/new-dataset-outputitemcount.png "Set properties")
 
-21. Select **OK**.
+22. Select **OK**.
 
-22. Verify that `output_item_count` is the selected sink dataset, then set the `Copy method` to **Bulk insert** and paste the following SQL script into the **Pre-copy script** field:
+23. Verify that `output_item_count` is the selected sink dataset, then set the `Copy method` to **Bulk insert** and paste the following SQL script into the **Pre-copy script** field:
 
     ```sql
     TRUNCATE TABLE [dbo].[t_item_count]
@@ -680,23 +684,23 @@ The interactive authoring capability is used during authoring for functionalitie
 
     > If we wanted to use PolyBase instead, we would be required to perform some additional steps since we are using VNet service endpoints. Namely, we would need to execute a PowerShell script to assign an identity to Azure Active Directory for the Synapse workspace. Reference: <https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#impact-of-using-vnet-service-endpoints-with-azure-storage>
 
-23. On the pipeline canvas, draw a green arrow from the `ItemCount` notebook activity to the `CopyData` activity. This configures the copy data activity as a successor to the notebook activity.
+24. On the pipeline canvas, draw a green arrow from the `ItemCount` notebook activity to the `CopyData` activity. This configures the copy data activity as a successor to the notebook activity.
 
     ![The green arrow is highlighted.](media/pipeline-notebook-to-copy.png "Notebook to copy data")
 
-24. Select **Publish all** in the top-left corner of Synapse Studio.
+25. Select **Publish all** in the top-left corner of Synapse Studio.
 
     ![The publish all button is highlighted.](media/publish-all3.png "Publish all")
 
-25. Make sure the new pipeline and two new datasets are included, then select **Publish**.
+26. Make sure the new pipeline and two new datasets are included, then select **Publish**.
 
     ![The pipeline and datasets are displayed.](media/publish-pipeline.png "Publish")
 
-26. Select **Add trigger**, then **Trigger now** above the pipeline canvas.
+27. Select **Add trigger**, then **Trigger now** above the pipeline canvas.
 
     ![The trigger now option is highlighted.](media/trigger-now.png "Trigger now")
 
-27. Run the pipeline by selecting **OK**.
+28. Run the pipeline by selecting **OK**.
 
     > It will take about 10 minutes to complete the pipeline run.
 
