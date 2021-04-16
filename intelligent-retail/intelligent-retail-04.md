@@ -41,7 +41,7 @@ Time required: 15 minutes
 
     ![The form is displayed.](media/new-linked-service-power-bi-form.png "New linked service")
 
-5. Select **Create**.
+5. Select **Create** and the click on **Publish all**.
 
 ### Task 4: Create a Power BI dataset
 
