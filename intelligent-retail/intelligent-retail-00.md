@@ -126,3 +126,5 @@ When accessing other services in the Azure Synapse workspace, authentication is 
     ![The new linked service form is displayed.](media/new-linked-service-managed-identity.png "New linked service")
 
 7. Select **Create** to finish creating the new linked service.
+
+8. Select **Publish all**, then **Publish** to save all the changes.
