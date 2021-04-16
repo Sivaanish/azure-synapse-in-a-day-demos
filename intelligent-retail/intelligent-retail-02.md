@@ -468,7 +468,7 @@ The interactive authoring capability is used during authoring for functionalitie
 
     | Field                          | Value                                              |
     | ------------------------------ | ------------------------------------------         |
-    | Output stream name | _enter `sensor`_ |
+    | Output stream name | _enter `face`_ |
     | Source type | _select `Dataset`_ |
     | Options | _uncheck all_ |
     | Sampling | _select `Disable`_ |
