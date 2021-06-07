@@ -859,7 +859,7 @@ In this task, we configure the `IoTVirtualDevices` virtual device simulator that
 
     ![Hostname is highlighted in the Overview blade.](media/iot-hub-hostname.png "Overview")
 
-2. Navigate to the location on your computer or Windows VM where you extracted the ZIP file for this lab. If you extracted it to `C:\`, navigate to `C:\azure-synapse-in-a-day-demos-master\infrastructure\source\IoTVirtualDevices\Release`. Open **IoTVirtualDevices.exe.config**.
+2. Navigate to the location on your computer or Windows VM where you extracted the ZIP file for this lab. If you extracted it to `C:\`, navigate to `C:\LabFiles\azure-synapse-in-a-day-demos-master\infrastructure\source\IoTVirtualDevices\Release`. Open **IoTVirtualDevices.exe.config**.
 
     ![The config file is highlighted.](media/iotvirtualdevices-path.png "Windows Explorer")
 
@@ -1222,11 +1222,11 @@ In this task, you will use the `SensorPrep.ipynb` notebook in the `source/ETLand
 
     ![The Import menu item is selected.](media/develop-import.png "Import")
 
-3. Navigate to the folder where you extracted the ZIP file for this lab. If you extracted the files to `C:\`, navigate to `C:\azure-synapse-in-a-day-demos-master\infrastructure\source\ETLandPREDICT` and select **SensorPrep.ipynb**.
+3. Navigate to the folder where you extracted the ZIP file for this lab. If you extracted the files to `C:\`, navigate to `C:\LabFiles\azure-synapse-in-a-day-demos-master\infrastructure\source\ETLandPREDICT` and select **SensorPrep.ipynb**.
 
     ![The SensorPrep file is highlighted.](media/sensorprep-file.png "Open")
 
-4. With the `SensorPrep` notebook open, edit the storage `account_name` value in **Cell 2**. Enter just the account name (eg. `synapselabinfra311568`) and not the fully-qualified name.
+4. With the `SensorPrep` notebook open, edit the storage `account_name` value in **Cell 2**. Enter just the account name (eg. `synapselabinfra311568`) and not the fully-qualified name and Attach to `aiadspark`.
 
     ![The account name variable is highlighted.](media/sensorprep-cell2.png "Edit Cell 2")
 
@@ -1271,11 +1271,11 @@ Train and run machine learning models in a Spark pool and load the predicted res
 
     ![The Import menu item is selected.](media/develop-import.png "Import")
 
-3. Navigate to the folder where you extracted the ZIP file for this lab. If you extracted the files to `C:\`, navigate to `C:\azure-synapse-in-a-day-demos-master\infrastructure\source\ETLandPREDICT` and select **TrainAndScoreRULModel.ipynb**.
+3. Navigate to the folder where you extracted the ZIP file for this lab. If you extracted the files to `C:\`, navigate to `C:\LabFiles\azure-synapse-in-a-day-demos-master\infrastructure\source\ETLandPREDICT` and select **TrainAndScoreRULModel.ipynb**.
 
     ![The TrainAndScoreRULModel file is highlighted.](media/trainmodel-file.png "Open")
 
-4. Run the notebook to run SparkML and load the data into your SQL pool.
+4. Attach to `aiadspark` and Run the notebook to run SparkML and load the data into your SQL pool.
 
 ## Exercise 8: Visualize with Power BI
 
