@@ -10,7 +10,6 @@
          {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/master/infrastructure/01.md",
           "Order": 2 
-
         },
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/azure-synapse-in-a-day-demos/master/infrastructure/02.md",
