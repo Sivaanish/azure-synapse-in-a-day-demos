@@ -74,4 +74,4 @@ To build the architecture, complete the following tasks:
 4. Create distributed ETL processing in the GUI with Mapping Data Flow
 5. Visualize flight delay
 
-Click **Next** in the below to perform the lab. 
+Click **Next** in the below to proceed with the lab. 
