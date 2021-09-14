@@ -495,6 +495,13 @@ Add a sink process to output to the SQL Pool and create a dataset that defines t
 6. Under the **Connection** tab of the dataset properties, enter **aiaddw** SQL pool name for the **DBName** value. Select **Refresh** next to the table list, then select **dbo.DelaySummary** from the list.
 
     ![The form values are configured as described.](media/dw-delaysummary-properties.png "dw_DelaySummary properties")
+    
+   **IMPORTANT**: If the connection fails or if you are unable to get the table in the dropdown-menu.
+
+   1. Navigate to the synapse workspace **synapselabinfraXXXXXX** select **Managed identities** under Security tab.
+   2. Check the **Allow pipelines (running as workspace's system assigned identity) to access SQL pools** option and click on **Save**. Then perform the above step again.
+
+      ![managed-identity.](media/managed-identity.png "managed identity")
 
 7. Select the **FlightDelayETL** tab to switch back to the mapping data flow. Select **Sink1**, select the **Settings** tab, then select **Truncate table** in the Table action options list. Make sure **Enable staging** is also checked.
 
