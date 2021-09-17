@@ -1,12 +1,3 @@
-- [Overview](#overview)
-    - [The Challenge for Businesses](#the-challenge-for-businesses)
-    - [Objectives and Goals](#objectives-and-goals)
-  - [Description of the Datasets in Use](#description-of-the-datasets-in-use)
-    - [Description of the Credit Card Fraud Detection Dataset](#description-of-the-credit-card-fraud-detection-dataset)
-    - [Description of the City Latitude and Longitude List Dataset](#description-of-the-city-latitude-and-longitude-list-dataset)
-    - [Description of the Country Code List Dataset](#description-of-the-country-code-list-dataset)
-  - [About Principal Component Analysis](#about-principal-component-analysis)
-  - [Machine Learning Algorithm Used for Scoring in Exercise 1](#machine-learning-algorithm-used-for-scoring-in-exercise-1)
 ## Overview
 
 Over the past few years, there has been a significant worldwide increase in the unauthorized use of credit cards in mail order and online payments, as these are transactions in which no credit card is actually presented to the vendor. Unless some sort of countermeasures are taken, this will cause enormous damage to credit card users and credit card companies.
