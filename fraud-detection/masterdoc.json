@@ -22,10 +22,6 @@
     {
       "RawFilePath": "https://raw.githubusercontent.com/Sivaanish/azure-synapse-in-a-day-demos/master/fraud-detection/02.md",
       "Order": 5
-    },
-    {
-      "RawFilePath": "https://raw.githubusercontent.com/Sivaanish/azure-synapse-in-a-day-demos/master/fraud-detection/After-Hands-On%20Lab.md",
-      "Order": 6
     }
   ]
 } 
