@@ -1,6 +1,3 @@
-- [After the hands-on lab](#after-the-hands-on-lab)
-    - [Task 1: Delete Lab Resources](#task-1-delete-lab-resources)
-    - [Task 2:  Delete the Power BI Workspace](#task-2--delete-the-power-bi-workspace)
 ## After the hands-on lab
 
 Duration: 10 minutes
