@@ -266,15 +266,19 @@ Sample data (data items: `date`, `gender`, `age`, and `count`):
 
 The interactive authoring capability is used during authoring for functionalities like testing the connection, browsing and previewing data, and importing a schema inside a managed Virtual Network.
 
-1. Navigate to the **Manage hub**.
+1. Navigate to the **Monitor hub**.
 
-    ![Manage hub.](media/manage-hub.png "Manage hub")
+    ![Manage hub.](media/Monitor.png "Monitor hub")
 
 2. Select **Integration runtimes** in the left-hand menu, then select the **AutoResolveIntegrationRuntime**.
 
-    ![The integration runtime is selected.](media/integration-runtimes.png "Integration runtimes")
+    ![The integration runtime is selected.](media/Integration%20Runtime.png "Integration runtimes")
 
-3. Select **Enable** next to `Interactive authoring`, then **Apply**.
+3. Select **Edit** below the `Resource Montior(details)`page.
+
+    ![The interactive runtime is edited.](media/Edit.png "Edit integration runtime")
+
+4. Select **Enable** next to `Interactive authoring`, then **Apply**.
 
     ![The interactive authoring option is enabled.](media/enable-interactive-authoring.png "Edit integration runtime")
 
