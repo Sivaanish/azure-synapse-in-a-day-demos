@@ -54,7 +54,7 @@ This first task will export credit card predictions from the prior exercise into
 
 9. Drill down the SQL pool tables and then select the ellipsis (...) next to the **synapse.CreditCard** table.  From there, select **Data flow** to open a new data flow.
 
-    ![Create a new Data flow.](media/Step%209.jpg 'Data flow')
+    ![Create a new Data flow.](media/Step%209.png 'Data flow')
 
 10. Name the data flow **DataflowCreditCard** and the integration dataset name **DatasetSqlPoolCreditCard**. Then, select **Create** to create the data flow.
 
@@ -150,7 +150,7 @@ This first task will export credit card predictions from the prior exercise into
 
 31. Select the data flow and then navigate to the **Settings** menu.  In the PolyBase sub-menu, change the Staging linked service to **SynapseLabFraudADLS**, the staging storage folder's container to **synapse** and folder to **creditcard**.
 
-    ![The PolyBase settings are created.](media/Step%2031.jpg 'Settings')
+    ![The PolyBase settings are created.](media/Step%2031.png 'Settings')
 
 32. Select **Debug** to run the pipeline.
 
