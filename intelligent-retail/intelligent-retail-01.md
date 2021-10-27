@@ -26,9 +26,9 @@ You will learn:
 
     ![The handson-iothub account is highlighted.](media/resource-group-iothub.png "IoT Hub")
 
-3. Select **IoT devices** on the left-hand menu, then select **+ New**.
+3. Select **Devices** on the left-hand menu, then select **+ New**.
 
-    ![The new button is highlighted.](media/iothub-devices-new.png "IoT devices - New")
+    ![The new button is highlighted.](media/int1.png "IoT devices - New")
 
 4. In the **Create a device** form, complete the following:
 
