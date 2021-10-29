@@ -210,7 +210,7 @@ You will learn:
    | Encoding | _select `UTF-8`_ |
    | Event compression type | _select `None`_ |
 
-   ![The form is configured as described.](media/stream-analytics-add-iot-sensor-input-form.png "IoT Hub")
+   ![The form is configured as described.](media/rp8.png "IoT Hub")
 
 5. Select **Save**.
 
@@ -230,7 +230,7 @@ You will learn:
    | Delimiter | _select `comma (,)`_ |
    | Encoding | _select `UTF-8`_ |
 
-   ![The form is configured as described.](media/stream-analytics-add-blob-input-form.png "IoT Hub")
+   ![The form is configured as described.](media/rp9.png "IoT Hub")
 
 8. Select **Save**.
 
@@ -255,7 +255,7 @@ You will learn:
    | Maximum time | _enter `1 minute`_ |
    | Authentication mode | _select `Connection string`_ |
 
-   ![The form is configured as described.](media/stream-analytics-add-blob-sensor-output-form.png "IoT Hub")
+   ![The form is configured as described.](media/rp10.png "IoT Hub")
 
 3. Select **Save**.
 
