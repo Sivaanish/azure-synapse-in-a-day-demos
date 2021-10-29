@@ -255,7 +255,7 @@ You will learn:
    | Maximum time | _enter `1 minute`_ |
    | Authentication mode | _select `Connection string`_ |
 
-   ![The form is configured as described.](media/rp10.png "IoT Hub")
+   ![The form is configured as described.](media/rp11.png "IoT Hub")
 
 3. Select **Save**.
 
