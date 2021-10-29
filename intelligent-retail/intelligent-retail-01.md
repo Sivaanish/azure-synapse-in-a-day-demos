@@ -26,9 +26,9 @@ You will learn:
 
     ![The handson-iothub account is highlighted.](media/resource-group-iothub.png "IoT Hub")
 
-3. Select **Devices** on the left-hand menu, then select **+ New**.
+3. Select **Devices** on the left-hand menu, then select **+ Add Device**.
 
-    ![The new button is highlighted.](media/int1.png "IoT devices - New")
+    ![The new button is highlighted.](media/rp2.png "IoT devices - New")
 
 4. In the **Create a device** form, complete the following:
 
@@ -47,7 +47,7 @@ You will learn:
 
 1. Select the **TestDevice** that you just added.
 
-    ![The TestDevice is highlighted.](media/testdevice.png "TestDevice")
+    ![The TestDevice is highlighted.](media/rp3.png "TestDevice")
 
 2. Copy the **Primary Connection String** and save it to a text editor, such as Notepad. This connection string is used to send stream data from IoT devices in subsequent work.
 
