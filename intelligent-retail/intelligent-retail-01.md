@@ -65,7 +65,7 @@ You will learn:
 
 3. Select **IoT devices** on the left-hand menu, then select **+ New**.
 
-    ![The new button is highlighted.](media/iothub-sensor-devices-new.png "IoT devices - New")
+    ![The new button is highlighted.](media/rp4.png "IoT devices - New")
 
 4. In the **Create a device** form, complete the following:
 
@@ -84,7 +84,7 @@ You will learn:
 
 1. Select the **TestDevice** that you just added.
 
-    ![The TestDevice is highlighted.](media/testdevice-sensor.png "TestDevice")
+    ![The TestDevice is highlighted.](media/rp5.png "TestDevice")
 
 2. Copy the **Primary Connection String** and save it to a text editor, such as Notepad. This connection string is used to send stream data from IoT devices in subsequent work.
 
