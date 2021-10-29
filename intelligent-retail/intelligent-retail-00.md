@@ -56,7 +56,7 @@ In this task, you create a new managed private endpoint for the ADLS Gen2 accoun
 
 11. Select **Networking** on the left-hand menu **(1)**, then select the **Private endpoint connections** tab **(2)**. You should see the new private endpoint connection in a Pending status. Before you can use it, you must approve the request. **Check** the pending request **(3)**, then select **Approve (4)**.
 
-    ![The pending connection request is checked and the Approve button is highlighted.](media/adls-approve-private-endpoint.png "Private endpoint connections")
+    ![The pending connection request is checked and the Approve button is highlighted.](media/rp1.png "Private endpoint connections")
 
 12. Enter a description for the approval, such as "Synapse data lake", then select **Yes** to complete the approval.
 
