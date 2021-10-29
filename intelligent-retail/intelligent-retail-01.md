@@ -63,7 +63,7 @@ You will learn:
 
     ![The handson-iothub-sensor account is highlighted.](media/resource-group-iothub-sensor.png "IoT Hub - Sensor")
 
-3. Select **IoT devices** on the left-hand menu, then select **+ New**.
+3. Select **Devices** on the left-hand menu, then select **+ Add Device**.
 
     ![The new button is highlighted.](media/rp4.png "IoT devices - New")
 
