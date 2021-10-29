@@ -121,7 +121,7 @@ You will learn:
    | Encoding | _select `UTF-8`_ |
    | Event compression type | _select `None`_ |
 
-   ![The form is configured as described.](media/stream-analytics-add-iot-input-form.png "IoT Hub")
+   ![The form is configured as described.](media/rp6.png "IoT Hub")
 
 5. Select **Save**.
 
@@ -146,7 +146,7 @@ You will learn:
    | Maximum time | _enter `1 minute`_ |
    | Authentication mode | _select `Connection string`_ |
 
-   ![The form is configured as described.](media/stream-analytics-add-blob-output-form.png "IoT Hub")
+   ![The form is configured as described.](media/rp7.png "IoT Hub")
 
    > **Minimum rows and maximum time**
    >
