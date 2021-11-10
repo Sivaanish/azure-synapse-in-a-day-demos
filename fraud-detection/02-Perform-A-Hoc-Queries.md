@@ -310,68 +310,64 @@ This first task will export credit card predictions from the prior exercise into
 
 ### Task 3:  Power BI Fraud Map Report Development
 
-1. Open the RDP file from the Before the Hands-On Lab section and select **Connect** to access the virtual machine.  When prompted for credentials, enter `powerbiuser` for the username and the password you chose.
-
-    ![Connect to a remote host.](media/azure-vm-connect-3.png 'Connect to a remote host')
-
-2. Open a browser in the virtual machine.  In the [Azure portal](https://portal.azure.com), type in "azure synapse analytics" in the top search menu and then select **Azure Synapse Analytics** from the results.
+1. In the [Azure portal](https://portal.azure.com), type in "azure synapse analytics" in the top search menu and then select **Azure Synapse Analytics** from the results.
 
     ![In the Services search result list, Azure Synapse Analytics is selected.](media/azure-create-synapse-search.png 'Azure Synapse Analytics')
 
-3. Select the workspace you created before the hands-on lab.
+2. Select the workspace you created before the hands-on lab.
 
     ![The Azure Synapse Analytics workspace for the lab is selected.](media/azure-synapse-select.png 'The fraud detection Synapse workspace')
 
-4. Select **Open** underneath **Open Synapse Studio** from the Synapse workspace page.
+3. Select **Open** underneath **Open Synapse Studio** from the Synapse workspace page.
 
     ![Launch Synapse Studio is selected.](media/azure-synapse-launch-studio.png 'Launch Synapse Studio')
 
-5. Select the **Develop** tab from Synapse studio.
+4. Select the **Develop** tab from Synapse studio.
 
     ![The Develop option is selected.](media/azure-synapse-develop.png 'Develop')
 
-6. Drill down into the **Power BI** menu and then the **FraudDetection** menu, followed by **Power BI datasets**.  Choose the **+ New Power BI dataset** option.
+5. Drill down into the **Power BI** menu and then the **FraudDetection** menu, followed by **Power BI datasets**.  Choose the **+ New Power BI dataset** option.
 
     ![Create a new Power BI dataset.](media/azure-synapse-new-power-bi-dataset.png 'New Power BI dataset')
 
-7. Hover over the **synapsesql** serverless SQL database and then select **Download .pbids file**.
+6. Hover over the **synapsesql** serverless SQL database and then select **Download .pbids file**.
 
     ![The option to download a Power BI dataset file is selected.](media/power-bi-pbids.png 'New Power BI dataset')
 
-8. Open the downloaded Power BI dataset file in Power BI Desktop. If you are prompted to sign in to the Power BI dataset, select **Microsoft account** in the left-hand menu, then click the **Sign in** button to enter your Azure credentials.
+7. Open the downloaded Power BI dataset file in Power BI Desktop. If you are prompted to sign in to the Power BI dataset, select **Microsoft account** in the left-hand menu, then click the **Sign in** button to enter your Azure credentials.
 
     ![The Microsoft account tab and sign in button are highlighted.](media/power-bi-serverless-signin.png "SQL Server database")
 
-9. After signing in with your Azure credentials, click **Connect**.
+8. After signing in with your Azure credentials, click **Connect**.
 
     ![The Connect button is highlighted.](media/power-bi-serverless-signin2.png "SQL Server database")
 
-10. On the Navigator page, select the **CreditCardLonLat** view and then select **Load**.
+9. On the Navigator page, select the **CreditCardLonLat** view and then select **Load**.
 
     ![The credit card longitude and latitude view is selected.](media/power-bi-lonlat-1.png 'Navigator')
 
-11. In the Connection settings modal dialog, select **Import** and then select **OK**.
+10. In the Connection settings modal dialog, select **Import** and then select **OK**.
 
     ![The Import option is selected.](media/power-bi-new-dataset-6.png 'Connection settings')
 
-12. Select the **lat** column. In the **Column tools** tab, select the drop-down for Summarization and select **Don't summarize**. Select the drop-down for Data category and choose **Latitude**. Repeat this for the **lon** column, setting the Data category to **Longitude** and Summarization to **Don't summarize**.
+11. Select the **lat** column. In the **Column tools** tab, select the drop-down for Summarization and select **Don't summarize**. Select the drop-down for Data category and choose **Latitude**. Repeat this for the **lon** column, setting the Data category to **Longitude** and Summarization to **Don't summarize**.
 
     ![The lat column has a data category of Latitude.](media/power-bi-new-lonlat-lat.png 'Data category')
 
-13. Select the **ArcGIS Maps for Power BI** visualization and drag it onto the canvas. Expand it to fill the canvas.
+12. Select the **ArcGIS Maps for Power BI** visualization and drag it onto the canvas. Expand it to fill the canvas.
 
     ![The ArcGIS Map visualization is selected.](media/power-bi-new-lonlat-gismap.png "ArcGIS Maps for Power BI Visualization")
 
     > **Note**: You do not need to sign in to the ArcGIS service.
 
-14. Drag the **Amount** data field into `Size` and `Color`, the **lat** data field into `Latitude`, and the **lon** data field into `Longitude`.
+13. Drag the **Amount** data field into `Size` and `Color`, the **lat** data field into `Latitude`, and the **lon** data field into `Longitude`.
 
     ![The credit card data fields are added to the map.](media/power-bi-new-lonlat2.png 'Visualizations and Filters')
 
-15. Drag the **Class** data field into the **Filters on this visual** section. In the Filter type drop-down, select **Basic filtering**.
+14. Drag the **Class** data field into the **Filters on this visual** section. In the Filter type drop-down, select **Basic filtering**.
 
     ![The Class filter has been added to the map visual.](media/power-bi-new-lonlat-3.png 'Filters on this visual')
 
-16. Change the filter on **Class** to include only fraudulent transactions by checking the **1 checkbox**. This report allows you to understand the geographical features of the unauthorized use of credit cards and to implement concrete measures to temporarily restrict the use of credit cards in cities that show the beginnings of a concentration of unauthorized uses of credit cards for large amounts.
+15. Change the filter on **Class** to include only fraudulent transactions by checking the **1 checkbox**. This report allows you to understand the geographical features of the unauthorized use of credit cards and to implement concrete measures to temporarily restrict the use of credit cards in cities that show the beginnings of a concentration of unauthorized uses of credit cards for large amounts.
 
     ![The Class filter has been added to the map visual.](media/power-bi-new-lonlat4.png 'Filters on this visual')
