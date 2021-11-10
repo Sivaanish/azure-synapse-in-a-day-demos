@@ -183,7 +183,7 @@ You will use masked data, obtained by applying principal component analysis to c
 
 24. Expand **Sql Databases** under the Workspace tab, expand **synapsesql**, then expand **External tables**. Right-click on the **synapse.exCreditCard** table and choose **New SQL script** and then **Select TOP 100 rows**.
 
-    ![Select the top 100 rows is selected.](media/azure-synapse-script-select-top100.png 'Select TOP 100 rows')
+    ![Select the top 100 rows is selected.](media/azure-synapse-script-select-top100u.png 'Select TOP 100 rows')
 
 25. Select the **Properties** icon to display the menu. Rename the name to **SelectExternalCreditCard**. Then, select **Publish all**.
 
@@ -220,11 +220,11 @@ You will use masked data, obtained by applying principal component analysis to c
 
 4. In the **Tables** folder for **synapsesql**, select the ellipsis (...) and choose **Refresh** to see the `synapse.CreditCard` table.
 
-    ![The list of tables is refreshed.](media/azure-synapse-refresh-tables.png 'Refresh')
+    ![The list of tables is refreshed.](media/azure-synapse-refresh-tablesu.png 'Refresh')
 
 5. In the **synapse.CreditCard** table entry, select the ellipsis (...) and choose **New SQL Script** and then **Select TOP 100 rows** to open a new script pre-populated with a SQL query.
 
-    ![The option to select the top 100 rows in the credit card predictions table is selected.](media/azure-synapse-creditcard-select.png 'Select TOP 100 rows')
+    ![The option to select the top 100 rows in the credit card predictions table is selected.](media/azure-synapse-creditcard-selectu.png 'Select TOP 100 rows')
 
     The `Output_label` field shows the prediction from the model.
 
@@ -232,27 +232,23 @@ You will use masked data, obtained by applying principal component analysis to c
 
 ### Task 3:  Power BI Report Development
 
-1. Open the RDP file from the Before the Hands-On Lab section and select **Connect** to access the virtual machine.  When prompted for credentials, enter `powerbiuser` for the username and the password you chose, or which were provided to you in your hosted lab environment details.
-
-    ![Connect to a remote host.](media/azure-vm-connect-3.png 'Connect to a remote host')
-
-2. Open a browser in the virtual machine.  In the [Azure portal](https://portal.azure.com), type in "azure synapse analytics" in the top search menu and then select **Azure Synapse Analytics** from the results.
+1. In the [Azure portal](https://portal.azure.com), type in "azure synapse analytics" in the top search menu and then select **Azure Synapse Analytics** from the results.
 
     ![In the Services search result list, Azure Synapse Analytics is selected.](media/azure-create-synapse-search.png 'Azure Synapse Analytics')
 
-3. Select the workspace you created before the hands-on lab.
+2. Select the workspace you created before the hands-on lab.
 
     ![The Azure Synapse Analytics workspace for the lab is selected.](media/azure-synapse-select.png 'synapse-lab-fraud-detection workspace')
 
-4. Select **Open** underneath **Open Synapse Studio** from the Synapse workspace page.
+3. Select **Open** underneath **Open Synapse Studio** from the Synapse workspace page.
 
     ![Launch Synapse Studio is selected.](media/azure-synapse-launch-studio.png 'Launch Synapse Studio')
 
-5. Select the **Develop** hub.
+4. Select the **Develop** hub.
 
     ![Develop hub.](media/develop-hub.png "Develop hub")
 
-6. Drill down into **Power BI** and then **FraudDetectionWorkspace**. Select **Power BI datasets**.
+5. Drill down into **Power BI** and then **FraudDetectionWorkspace**. Select **Power BI datasets**.
 
     ![The Open option is selected.](media/azure-synapse-power-bi-dataset-open.png 'Open')
 
@@ -260,66 +256,66 @@ You will use masked data, obtained by applying principal component analysis to c
 
     ![The refresh button is highlighted.](media/synapse-studio-refresh.png "Refresh")
 
-7. Select **+ New Power BI dataset**.
+6. Select **+ New Power BI dataset**.
 
     ![The New Power BI dataset option is selected.](media/azure-synapse-power-bi-dataset-new.png 'New Power BI dataset')
 
-8. Select **Start** to begin the process.
+7. Select **Start** to begin the process.
 
     ![The option to start is selected.](media/power-bi-new-dataset-1.png 'Start')
 
-9. Select the **synapsesql** SQL pool to use as a data source and then select **Continue**.
+8. Select the **synapsesql** SQL pool to use as a data source and then select **Continue**.
 
     ![The synapse SQL pool is selected.](media/power-bi-new-dataset-2.png 'Synapse SQL Pool')
 
-10. Select **Download** to download the Power BI dataset file.  After download completes, select **Continue**.
+9. Select **Download** to download the Power BI dataset file.  After download completes, select **Continue**.
 
     ![The Power BI dataset file is downloaded.](media/power-bi-new-dataset-3.png 'Download pbids file')
 
-11. Open the downloaded Power BI dataset file in Power BI Desktop.  When prompted to enter a username and password, select **Database** and enter the Synapse username and password you created before the hands-on lab, or which was provided to you as part of a hosted environment. The username will be **asa.sql.admin**. Then select **Connect** to connect to the SQL pool.
+10. Open the downloaded Power BI dataset file in Power BI Desktop.  When prompted to enter a username and password, select **Database** and enter the Synapse username and password you created before the hands-on lab, or which was provided to you as part of a hosted environment. The username will be **asa.sql.admin**. Then select **Connect** to connect to the SQL pool.
 
     ![The credentials for the Synapse admin user are entered.](media/power-bi-new-dataset-4.png 'Connect to SQL Pool')
 
-12. On the Navigator page, select the **synapse.CreditCard** table and then select **Load**.
+11. On the Navigator page, select the **synapse.CreditCard** table and then select **Load**.
 
     ![The credit card table are selected.](media/power-bi-new-dataset-5.png 'Navigator')
 
-13. In the Connection settings modal dialog, select **Import** and then select **OK**.
+12. In the Connection settings modal dialog, select **Import** and then select **OK**.
 
     ![The Import option is selected.](media/power-bi-new-dataset-6.png 'Connection settings')
 
-14. Once the table is loaded, select the **Data** tab and then select the **Time** column.  In the Format section, select the drop-down list and choose **Decimal number**.
+13. Once the table is loaded, select the **Data** tab and then select the **Time** column.  In the Format section, select the drop-down list and choose **Decimal number**.
 
     ![The Time column is changed to a decimal data type.](media/power-bi-new-dataset-7.png 'Decimal number')
 
-15. Right-click the Time column and choose **Sort ascending**.
+14. Right-click the Time column and choose **Sort ascending**.
 
     ![The Sort ascending option is selected.](media/power-bi-new-dataset-8.png 'Sort ascending')
 
-16. Choose the **Report** view and then select the **Clustered column chart** option.  Select and drag the **Time** attribute into the **Axis** field to make time the X axis.  From there, select and drag the **Amount** attribute into the **Values** field to make amount the Y axis.
+15. Choose the **Report** view and then select the **Clustered column chart** option.  Select and drag the **Time** attribute into the **Axis** field to make time the X axis.  From there, select and drag the **Amount** attribute into the **Values** field to make amount the Y axis.
 
     ![The amount by time report has been created.](media/power-bi-amount-by-time.png 'Amount by Time')
 
-17. Expand out the **Filters** pane. Select and drag the **Class** attribute into the **Filters on this visual** menu.  Change the filter type to **Basic filtering** and select **1** to filter down to fraudulent transactions.
+16. Expand out the **Filters** pane. Select and drag the **Class** attribute into the **Filters on this visual** menu.  Change the filter type to **Basic filtering** and select **1** to filter down to fraudulent transactions.
 
     ![The amount by time report filter has been added.](media/power-bi-amount-by-time-filter.png 'Amount by Time filter')
 
-18. Save the file as **FraudDetectionReport**.
+17. Save the file as **FraudDetectionReport**.
 
     ![The Power BI report is saved.](media/power-bi-fraud-detection-report.png 'FraudDetectionReport')
 
-19. In the **File** menu, select **Publish** and then **Publish to Power BI**.
+18. In the **File** menu, select **Publish** and then **Publish to Power BI**.
 
     ![The Publish to Power BI option is selected.](media/power-bi-publish.png 'Publish to Power BI')
 
-20. Sign into your Power BI workspace.
+19. Sign into your Power BI workspace.
 
     ![The option to sign into Power BI is selected.](media/power-bi-login.png 'Sign in')
 
-21. Select the **FraudDetection** workspace and then choose **Select**.
+20. Select the **FraudDetection** workspace and then choose **Select**.
 
     ![The FraudDetection workspace is selected.](media/power-bi-select-destination.png 'Select a destination')
 
-22. After the Power BI report deploys, return to Azure Synapse Analytics Studio and select **Continue** and then **Close and refresh**.  Select the **Power BI reports** menu and then the **FraudDetectionReport** to review the published report.
+21. After the Power BI report deploys, return to Azure Synapse Analytics Studio and select **Continue** and then **Close and refresh**.  Select the **Power BI reports** menu and then the **FraudDetectionReport** to review the published report.
 
     ![The fraud detection report is now available.](media/azure-synapse-fraud-detection-report.png 'Fraud Detection Report')
