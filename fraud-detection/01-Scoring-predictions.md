@@ -181,7 +181,7 @@ You will use masked data, obtained by applying principal component analysis to c
 
     ![Data hub.](media/data-hub.png "Data hub")
 
-24. Expand **Databases** under the Workspace tab, expand **synapsesql**, then expand **External tables**. Right-click on the **synapse.exCreditCard** table and choose **New SQL script** and then **Select TOP 100 rows**.
+24. Expand **Sql Databases** under the Workspace tab, expand **synapsesql**, then expand **External tables**. Right-click on the **synapse.exCreditCard** table and choose **New SQL script** and then **Select TOP 100 rows**.
 
     ![Select the top 100 rows is selected.](media/azure-synapse-script-select-top100.png 'Select TOP 100 rows')
 
