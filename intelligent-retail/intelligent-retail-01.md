@@ -402,9 +402,9 @@ To verify that the IoT Hub devices are successfully retrieving the data, and tha
 
     ![The handsonretaildl storage account is selected.](media/resource-group-dl.png "Storage account")
 
-3. Select **Storage Explorer (preview)** in the left-hand menu **(1)**, expand Containers and select **shelfdata (2)**, then open the **tran** folder **(3)**. Verify that you see the **`face`** and **`sensor`** folders **(4)**. These are created by the two Stream Analytics jobs. If you don't see both folders, try refreshing the list after about a minute.
+3. Select **Storage browser (preview)** in the left-hand menu **(1)**, expand Blob containers and select **shelfdata (2)**, then open the **tran** folder **(3)**. Verify that you see the **`face`** and **`sensor`** folders **(4)**. These are created by the two Stream Analytics jobs. If you don't see both folders, try refreshing the list after about a minute.
 
-    ![The two folders are displayed in the tran folder.](media/datalake-tran-data.png "Storage Explorer")
+    ![The two folders are displayed in the tran folder.](media/datalake-tran-datau.png "Storage Browserr")
 
 4. Confirm that a JSON file has been created in the following folders in the data lake:
 
