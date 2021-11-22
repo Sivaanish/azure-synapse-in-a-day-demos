@@ -78,9 +78,9 @@ Later on in this lab, you will create a data pipeline that includes a copy activ
 
     ![Data hub.](media/data-hub.png "Data hub")
 
-2. Select the **Workspace** tab **(1)**, expand Databases and right-click on **SqlPool (2)**. Select **New SQL script (3)**, then **Empty script (4)**.
+2. Select the **Workspace** tab **(1)**, expand SQL Database and right-click on **SqlPool (2)**. Select **New SQL script (3)**, then **Empty script (4)**.
 
-    ![The new empty script option is displayed.](media/new-empty-sql-script.png "New empty SQL script")
+    ![The new empty script option is displayed.](media/new-empty-sql-scriptu.png "New empty SQL script")
 
 3. Paste the following script and **Run** it to create a new user for your workspace's managed identity, and to add it to the `db_owner` role. **Replace** `YOUR_SYNAPSE_WORKSPACE_NAME` with the name of your Synapse Analytics workspace. You can find this value at the top of Synapse Studio, as shown in the screenshot below.
 
