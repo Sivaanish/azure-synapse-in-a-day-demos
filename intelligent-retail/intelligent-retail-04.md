@@ -49,9 +49,9 @@ Time required: 15 minutes
 
     ![Develop hub.](media/develop-hub.png "Develop hub")
 
-2. Expand the `Power BI` group, then expand **SynapseRetail**. Select **Power BI datasets**, then select **+ New Power BI dataset**.
+2. Expand the `Power BI` group, then expand **handson_powerbi**. Select **Power BI datasets**, then select **+ New Power BI dataset**.
 
-    ![The new Power BI dataset button is highlighted.](media/new-pbi-dataset.png "New Power BI dataset")
+    ![The new Power BI dataset button is highlighted.](media/new-pbi-datasetu.png "New Power BI dataset")
 
 3. If you see a dialog stating you need to install Power BI Desktop, select **Start** to continue.
 
