@@ -99,9 +99,9 @@ The diagram below shows the Synapse Studio elements that help us build the data 
 
     ![Data hub.](media/data-hub.png "Data hub")
 
-12. Select the **Workspace** tab **(1)**, expand **SqlPool** under Databases **(2)**, then expand the Tables list. If you do not see the `t_shelf_count` table, refresh the list. **Right-click** on the **`t_shelf_count`** table **(3)**, select **New SQL script (4)**, then **Select TOP 100 rows (5)**.
+12. Select the **Workspace** tab **(1)**, expand **SqlPool** under SQL Database **(2)**, then expand the Tables list. If you do not see the `t_shelf_count` table, refresh the list. **Right-click** on the **`t_shelf_count`** table **(3)**, select **New SQL script (4)**, then **Select TOP 100 rows (5)**.
 
-    ![The table is highlighted.](media/select-top-shelf-count.png "Select TOP 100 rows")
+    ![The table is highlighted.](media/select-top-shelf-countu.png "Select TOP 100 rows")
 
     You should see an output that looks similar to the following:
 
@@ -244,9 +244,9 @@ Sample data (data items: `date`, `gender`, `age`, and `count`):
 
     ![Data hub.](media/data-hub.png "Data hub")
 
-2. Select the **Workspace** tab **(1)**, expand Databases and right-click on **SqlPool (2)**. Select **New SQL script (3)**, then **Empty script (4)**.
+2. Select the **Workspace** tab **(1)**, expand SQL Database and right-click on **SqlPool (2)**. Select **New SQL script (3)**, then **Empty script (4)**.
 
-    ![The new empty script option is displayed.](media/new-empty-sql-script.png "New empty SQL script")
+    ![The new empty script option is displayed.](media/new-empty-sql-scriptu.png "New empty SQL script")
 
 3. Paste the following script and **Run** it to create a new `t_item_count` table:
 
@@ -551,7 +551,7 @@ The interactive authoring capability is used during authoring for functionalitie
 
     > The `[n]` token gets replaced with the partition number.
 
-    ![The sink settings form is displayed.](media/df-sink-settings.png "Sink settings")
+    ![The sink settings form is displayed.](media/df-sink-settingsu.png "Sink settings")
 
 20. Select the **Mapping** tab. In the **Mapping** form, complete the following:
 
