@@ -330,7 +330,7 @@ When the data flow pipeline has successfully completed, view the data it wrote t
 
     ![The data hub is selected.](media/data-hub.png "Data hub")
 
-2. Select the **Workspace** tab, expand **SQL Database**, expand the **aiaddw** SQL pool, and expand **Tables**. Right-click on the `DelaySummary` table, select  **New SQL script**, then select **Select TOP 100 rows**.
+2. Select the **Workspace** tab, expand **SQL database**, expand the **aiaddw** SQL pool, and expand **Tables**. Right-click on the `DelaySummary` table, select  **New SQL script**, then select **Select TOP 100 rows**.
 
     ![The DelaySummary table is displayed.](media/delaysummary-table-new-scriptu.png "DelaySummary table")
 
