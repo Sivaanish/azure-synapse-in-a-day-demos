@@ -43,7 +43,7 @@ In this task, you will use the `SensorPrep.ipynb` notebook in the `source/ETLand
 
     ![The Import menu item is selected.](media/develop-import.png "Import")
 
-3. Navigate to the folder where you extracted the ZIP file for this lab. If you extracted the files to `C:\`, navigate to `C:\azure-synapse-in-a-day-demos-master\infrastructure\source\ETLandPREDICT` and select **SensorPrep.ipynb**.
+3. Navigate to the folder where you extracted the ZIP file for this lab. If you extracted the files to `C:\`, navigate to `C:\LabFiles\azure-synapse-in-a-day-demos-master\infrastructure\source\ETLandPREDICT` and select **SensorPrep.ipynb**.
 
     ![The SensorPrep file is highlighted.](media/sensorprep-file.png "Open")
 
