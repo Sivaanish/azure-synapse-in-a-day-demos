@@ -330,9 +330,9 @@ When the data flow pipeline has successfully completed, view the data it wrote t
 
     ![The data hub is selected.](media/data-hub.png "Data hub")
 
-2. Select the **Workspace** tab, expand **Databases**, expand the **aiaddw** SQL pool, and expand **Tables**. Right-click on the `DelaySummary` table, select  **New SQL script**, then select **Select TOP 100 rows**.
+2. Select the **Workspace** tab, expand **SQL Database**, expand the **aiaddw** SQL pool, and expand **Tables**. Right-click on the `DelaySummary` table, select  **New SQL script**, then select **Select TOP 100 rows**.
 
-    ![The DelaySummary table is displayed.](media/delaysummary-table-new-script.png "DelaySummary table")
+    ![The DelaySummary table is displayed.](media/delaysummary-table-new-scriptu.png "DelaySummary table")
 
 3. View the results of the executed script. Notice that the derived columns, joined columns, and aggregates you added to the Mapping Data Flow appear in the result set.
 
