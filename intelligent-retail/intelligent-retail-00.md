@@ -78,7 +78,7 @@ Later on in this lab, you will create a data pipeline that includes a copy activ
 
     ![Data hub.](media/data-hub.png "Data hub")
 
-2. Select the **Workspace** tab **(1)**, expand SQL Database and right-click on **SqlPool (2)**. Select **New SQL script (3)**, then **Empty script (4)**.
+2. Select the **Workspace** tab **(1)**, expand SQL Databases and right-click on **SqlPool (2)**. Select **New SQL script (3)**, then **Empty script (4)**.
 
     ![The new empty script option is displayed.](media/new-empty-sql-scriptu.png "New empty SQL script")
 
