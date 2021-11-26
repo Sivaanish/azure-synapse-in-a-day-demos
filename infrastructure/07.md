@@ -18,7 +18,7 @@ Train and run machine learning models in a Spark pool and load the predicted res
 
     ![The Import menu item is selected.](media/develop-import.png "Import")
 
-3. Navigate to the folder where you extracted the ZIP file for this lab. If you extracted the files to `C:\`, navigate to `C:\azure-synapse-in-a-day-demos-master\infrastructure\source\ETLandPREDICT` and select **TrainAndScoreRULModel.ipynb**.
+3. Navigate to the folder where you extracted the ZIP file for this lab. If you extracted the files to `C:\`, navigate to `C:\LabFiles\azure-synapse-in-a-day-demos-master\infrastructure\source\ETLandPREDICT` and select **TrainAndScoreRULModel.ipynb**.
 
     ![The TrainAndScoreRULModel file is highlighted.](media/trainmodel-file.png "Open")
 
