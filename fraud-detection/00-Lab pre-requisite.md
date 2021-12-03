@@ -30,7 +30,7 @@
 
     ![The Visualize option is selected.](media/azure-synapse-visualize.png 'Visualize')
 
-9. In the **Connect to Power BI** tab, complete the following and then select **Connect** to create a new Power BI connection.
+9. In the **Connect to Power BI** tab, complete the following and then select **Create** to create a new Power BI connection.
 
     | Field                          | Value                                              |
     | ------------------------------ | ------------------------------------------         |
